@@ -39,7 +39,9 @@ Les références AK-001 à AK-020 sont des identifiants internes créés pour ce
 
 ## Livraison et vérifications
 
-Le site existant a été mis à jour localement. Aucun hébergement public n’a été modifié. La version précédente est conservée dans `index-avant-catalogue.html`.
+Le site est publié sur Vercel à l’adresse https://akaross-catalogue.vercel.app et son code source est disponible sur https://github.com/Mahamane04/Akaross. Le projet Vercel suit la branche `main` : chaque nouvelle version envoyée sur cette branche est automatiquement redéployée. La version précédente du site est conservée dans `index-avant-catalogue.html`.
+
+Un nom de domaine personnalisé pourra être ajouté plus tard depuis la rubrique **Domains** du projet Vercel. Vercel indiquera alors les enregistrements DNS à configurer chez le fournisseur du domaine.
 
 Contrôles réalisés dans Chrome : catégories, recherche, état sans résultat, aperçu produit, fermeture clavier, téléchargement configuré, référence unique dans chacun des 20 liens WhatsApp, génération des liens photo sur un domaine public simulé, chargement Inter, absence de débordement horizontal de 320 à 1440 px, respect du réglage de réduction des animations. Aucun message n’a été envoyé.
 
