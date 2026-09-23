@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#1d30a1">
+  <meta name="description" content="Découvrez les produits Akaross : réfrigérateurs, machines à laver, climatisation, cuisine, audio et équipement de la maison. Commandez sur WhatsApp au +223 75 32 66 28.">
+  <title>Akaross — Innover autrement !</title>
+  <link rel="icon" href="assets/logo-stacked.svg" type="image/svg+xml"><link rel="preload" href="assets/fonts/Inter-Regular.otf" as="font" type="font/otf" crossorigin>
+  <link rel="stylesheet" href="styles.css"><script src="app.js" defer></script>
+</head>
+<body id="accueil">
+  <a class="skip-link" href="#catalogue">Aller au catalogue</a>
+  <div class="topline"><div class="container"><span>Innover autrement, vivre pleinement.</span><a href="tel:+22375326628"><span data-icon="phone"></span> +223 75 32 66 28</a></div></div>
+  <header class="header">
+    <div class="container header-main">
+      <a class="brand" href="#accueil" aria-label="Akaross, accueil"><img src="assets/logo-horizontal.svg" width="205" height="59" alt="Akaross"></a>
+      <nav class="main-nav" aria-label="Navigation principale"><a href="#accueil">Accueil</a><a href="#catalogue">Nos produits</a><a href="#akaross">L’esprit Akaross</a></nav>
+      <a class="header-contact" href="#contact">Parlons de votre projet <span data-icon="arrow"></span></a>
+    </div>
+    <div class="nav-border"><div class="container navigation-row">
+      <div class="categories-wrap"><button class="categories-toggle" id="categories-toggle" aria-expanded="false" aria-controls="category-menu"><span data-icon="grid"></span> Toutes les catégories <span class="chevron" data-icon="chevron"></span></button><nav class="category-menu" id="category-menu" aria-label="Catégories de produits" hidden></nav></div>
+      <label class="search"><span data-icon="search"></span><input id="search" type="search" placeholder="Quel produit recherchez-vous ?" aria-label="Rechercher un produit ou une référence" autocomplete="off"><kbd aria-hidden="true">↵</kbd></label>
+      <span class="nav-note">La maison, à votre image.</span>
+    </div></div>
+  </header>
+  <main>
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy"><p class="eyebrow"><span></span> La collection Akaross</p><h1 id="hero-title">Votre quotidien.<br>Une nouvelle<br><em>dimension.</em></h1><p class="hero-description">Du premier café à la dernière lessive, trouvez l’équipement qui prend sa place dans votre vie.</p><a class="button primary" href="#catalogue">Découvrir les produits <span data-icon="arrow"></span></a><div class="hero-bottom"><span class="small-line"></span><span>Électroménager & équipement de la maison</span></div></div>
+      <div class="hero-stage"><div class="hero-arch" aria-hidden="true"></div><span class="hero-word" aria-hidden="true">akaross</span><img class="hero-fridge" src="assets/hero-fridge.webp" width="800" height="1000" alt="Réfrigérateur double porte Akaross" fetchpriority="high"><img class="hero-washer" src="assets/hero-washer.webp" width="800" height="1000" alt="Machine à laver Akaross"><a class="hero-caption" href="#catalogue"><span>Du style. Du confort. Akaross.</span><span data-icon="arrow"></span></a></div>
+    </section>
+    <section class="category-section container" aria-label="Explorer par catégorie"><div class="section-kicker">À chaque besoin, son univers</div><div class="category-strip" id="category-strip"></div></section>
+    <section class="catalogue container" id="catalogue" aria-labelledby="catalogue-title">
+      <div class="section-heading"><div><p class="eyebrow">Trouver le vôtre</p><h2 id="catalogue-title">Pensés pour votre maison.</h2></div><p>Découvrez. Choisissez. <br>Commandez directement sur WhatsApp.</p></div>
+      <div class="catalogue-toolbar"><div class="active-selection"><button class="all-filter active" id="all-filter">Tous les produits</button><span id="selected-category" hidden></span><button class="clear-filter" id="clear-filter" hidden aria-label="Effacer les filtres"><span data-icon="close"></span></button></div><span id="product-count" role="status" aria-live="polite"></span></div>
+      <div class="product-grid" id="product-grid"></div>
+      <div class="empty-state" id="empty-state" hidden><span data-icon="search"></span><h3>Aucun produit trouvé</h3><p>Essayez un autre nom ou explorez toutes les catégories.</p><button class="button primary" id="reset-search">Voir tous les produits</button></div>
+      <noscript><p>Activez JavaScript pour explorer les 20 produits. Pour commander, contactez Akaross au <a href="https://wa.me/22375326628">75 32 66 28 sur WhatsApp</a>.</p></noscript>
+    </section>
+    <section class="brand-story" id="akaross"><div class="container story-inner"><div class="story-mark"><img src="assets/logo-stacked.svg" width="210" height="210" alt="Akaross"></div><div><p class="eyebrow">Innover autrement !</p><h2>Une place pour chaque envie.<br>Une signature : Akaross.</h2><p>Conserver, cuisiner, rafraîchir, prendre soin de son linge… Explorez une collection qui accompagne les moments de la maison, avec une même attention au design.</p></div></div></section>
+    <section class="contact container" id="contact"><div><p class="eyebrow">On en parle ?</p><h2>Votre prochain équipement<br>commence par un message.</h2><p>Une question sur un produit, son prix ou sa disponibilité ?<br>Échangez directement avec Akaross.</p></div><div class="contact-actions"><a class="button white" data-general-whatsapp target="_blank" rel="noopener noreferrer"><span data-icon="whatsapp"></span> Écrire sur WhatsApp <span data-icon="arrow"></span></a><a class="contact-number" href="tel:+22375326628">+223 75 32 66 28</a></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#accueil" aria-label="Akaross, retour en haut"><img src="assets/logo-horizontal.svg" width="170" height="49" alt="Akaross"></a><span>Innover autrement !</span><a href="#catalogue">Explorer la collection <span data-icon="arrow"></span></a><span class="copyright">© <span id="year"></span> Akaross</span></div></footer>
+  <dialog id="product-dialog" aria-labelledby="dialog-title"><button class="dialog-close" id="dialog-close" aria-label="Fermer la fiche produit"><span data-icon="close"></span></button><div class="dialog-layout"><img id="dialog-image" src="assets/products/01-machine-a-laver.jpg" alt="" width="1200" height="1200"><div class="dialog-info"><p class="eyebrow" id="dialog-category"></p><h2 id="dialog-title"></h2><p class="reference" id="dialog-reference"></p><p>Ce produit vous intéresse ? Contactez-nous pour connaître son prix et sa disponibilité.</p><a class="button primary" id="dialog-order" target="_blank" rel="noopener noreferrer"><span data-icon="whatsapp"></span> Commander sur WhatsApp</a><a class="download-photo" id="dialog-download" download><span data-icon="download"></span> Télécharger la photo</a><p class="photo-help">Pour joindre la photo à votre message, téléchargez-la puis ajoutez-la dans WhatsApp.</p></div></div></dialog>
+</body>
+</html>

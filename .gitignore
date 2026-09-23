@@ -1,0 +1,6 @@
+.DS_Store
+previews/
+prepare-assets.cjs
+verify-site.cjs
+index-avant-catalogue.html
+.vercel/
